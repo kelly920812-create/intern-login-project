@@ -1,40 +1,21 @@
+
+/* 讓整體的背景顏色稍微柔和一點 */
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #f0f2f5;
     height: 100vh;
-    font-family: Arial, sans-serif;
-}
-.login-container {
-    width: 300px;
-}
-.input-group {
-    margin-bottom: 20px;
-}
-.input-group label {
-    display: block;
-    margin-bottom: 5px;
-    font-size: 18px;
-}
-.input-group input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #000;
-    box-sizing: border-box;
-}
-.button-group {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
-.btn {
-    background-color: #3f51b5;
-    color: white;
-    border: none;
-    padding: 10px 30px;
-    cursor: pointer;
-    font-size: 16px;
+
+/* 針對登入卡片的額外微調 */
+.login-card {
+    width: 400px;
+    
+    border-radius: 12px; 
 }
-.message-box {
-    margin-top: 15px;
-    text-align: center;
+
+/* 讓按鈕的文字更有質感 */
+.btn-primary {
+    font-weight: 500;
 }
